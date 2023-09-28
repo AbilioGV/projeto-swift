@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F4665F72AC5B5A50092FAAC /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4665F62AC5B5A50092FAAC /* ViewModel.swift */; };
+		3F4665F92AC5B5CE0092FAAC /* Win.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4665F82AC5B5CE0092FAAC /* Win.swift */; };
+		3F4665FB2AC5B5DF0092FAAC /* Lose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4665FA2AC5B5DF0092FAAC /* Lose.swift */; };
 		FC1DB9E32AC1A9130045AB74 /* projetoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1DB9E22AC1A9130045AB74 /* projetoApp.swift */; };
 		FC1DB9E52AC1A9130045AB74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1DB9E42AC1A9130045AB74 /* ContentView.swift */; };
 		FC1DB9E72AC1A9140045AB74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC1DB9E62AC1A9140045AB74 /* Assets.xcassets */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F4665F62AC5B5A50092FAAC /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		3F4665F82AC5B5CE0092FAAC /* Win.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Win.swift; path = "../../../projeto/projeto-tela2/Win.swift"; sourceTree = "<group>"; };
+		3F4665FA2AC5B5DF0092FAAC /* Lose.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Lose.swift; path = "../../../projeto/projeto-tela2/Lose.swift"; sourceTree = "<group>"; };
 		FC1DB9DF2AC1A9130045AB74 /* projeto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = projeto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC1DB9E22AC1A9130045AB74 /* projetoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = projetoApp.swift; sourceTree = "<group>"; };
 		FC1DB9E42AC1A9130045AB74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,6 +72,9 @@
 				FC1DB9E22AC1A9130045AB74 /* projetoApp.swift */,
 				FC29A52B2AC1CD8D00339C46 /* paginaJogo.swift */,
 				FC1DB9E42AC1A9130045AB74 /* ContentView.swift */,
+				3F4665F62AC5B5A50092FAAC /* ViewModel.swift */,
+				3F4665F82AC5B5CE0092FAAC /* Win.swift */,
+				3F4665FA2AC5B5DF0092FAAC /* Lose.swift */,
 				FC29A52E2AC1CEBD00339C46 /* JockeyOne-Regular.ttf */,
 				FC1DB9E62AC1A9140045AB74 /* Assets.xcassets */,
 				FC1DB9E82AC1A9140045AB74 /* Preview Content */,
@@ -152,10 +161,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F4665FB2AC5B5DF0092FAAC /* Lose.swift in Sources */,
 				FC29A52C2AC1CD8D00339C46 /* paginaJogo.swift in Sources */,
 				FCB953582AC2F7B500501156 /* paginaRegras.swift in Sources */,
 				FC1DB9E52AC1A9130045AB74 /* ContentView.swift in Sources */,
 				FC1DB9E32AC1A9130045AB74 /* projetoApp.swift in Sources */,
+				3F4665F72AC5B5A50092FAAC /* ViewModel.swift in Sources */,
+				3F4665F92AC5B5CE0092FAAC /* Win.swift in Sources */,
 				FCB9535A2AC2F7EC00501156 /* paginaRanking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
